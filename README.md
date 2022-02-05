@@ -71,4 +71,14 @@ GDSC Hack
 ![image](https://user-images.githubusercontent.com/93893702/152623783-1e9caa39-fad7-42d7-ab84-45af20d9dd58.png)
 
 
+이 화면에는 기억력 강화 게임에 맞는 이미지가 나타나 있는데요, 게임 설명으로 이동하면, 
+
+![image](https://user-images.githubusercontent.com/93893702/152624872-eaa1fad7-7cd2-45ae-b023-d42b4798c33f.png)
+
+
+역시 게임에 대한 자세한 설명이 나타나 있습니다. 두 명의 플레이어가 함께 즐기면 더 즐거운 게임인데요, 화투 패의 짝을 맞추는 게임입니다. 
+
+
+게임 시작을 눌러보겠습니다.
+
 
