@@ -2,6 +2,8 @@
 GDSC Hack
 성별, 연령에 상관 없는 교육용 소프트웨어 개발
 
+https://keen-kare-a28b65.netlify.app/index.html
+
 <홈페이지>
 ![image](https://user-images.githubusercontent.com/93893702/152623092-5ac3fbac-6b7a-4de9-830f-0542dd62846a.png)
 첫 화면은 홈페이지로, 좌측 상단의 사람 모양 그림을 누르면 어느 페이지에서나 홈페이지로 이동할 수 있습니다.
