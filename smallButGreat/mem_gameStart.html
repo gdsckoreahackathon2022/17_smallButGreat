@@ -1,0 +1,151 @@
+<!doctype html>
+  <head>
+    <meta charset="utf-8">
+    <title>Memory Game</title>
+    <script src="mem_Script.js" defer></script>
+
+    <link rel="stylesheet" href="mem_Style.css">
+    <!--<meta http-equiv="refresh" content="5"> 5초마다 새로고침-->
+  </head>
+  <body>
+    <div id="wrapper">
+    
+    <header id="main_header">
+       <h1 style="line-height: 40px;"> 
+        <a href="homePage.html"><image src="./images/GDSC_color.png" style="width:60px;"></image></a>
+       <a href="mem_Game.html"><span style="color:#000000; "><b>기억력 강화 게임</span></b></a>
+     </h1>
+    </header>
+
+    <nav id="main_menu">  
+        <ul>
+            <li><a href="mem_Game.html"> 기억력 강화 게임 홈 화면 </a></li>
+            <li><a href="mem_tutorial.html"> 게임설명 </a></li>
+        </ul>
+    </nav>
+
+  <section id="gameStart_section"> 
+
+  <article id="main_article">  
+    <header>
+        <hgroup>
+            <h1> MEMORY </h1>
+            <h2> 화투 짝 맞추기 게임 </h2>
+        </hgroup>  
+   </header>
+    </article> 
+    
+    <article id="main_article"> 
+
+    <div id='cardResult'> </div>
+      <button class = btn_start onclick="hideStartBtn();showResult();">시작하기</button>  
+      
+    <br><br>
+
+
+    <div id="btn_group">
+        <div class="container">
+      <button id = btn0 class="draggable" draggable="true" onclick="random_card(0);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn1 class="draggable" draggable="true" onclick="random_card(1);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn2 class="draggable" draggable="true" onclick="random_card(2);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn3 class="draggable" draggable="true" onclick="random_card(3);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+
+      <button id = btn4 class="draggable" draggable="true" onclick="random_card(4);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn5 class="draggable" draggable="true" onclick="random_card(5);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn6 class="draggable" draggable="true" onclick="random_card(6);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn7 class="draggable" draggable="true" onclick="random_card(7);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+
+      <button id = btn8 class="draggable" draggable="true" onclick="random_card(8);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn9 class="draggable" draggable="true" onclick="random_card(9);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn10 class="draggable" draggable="true" onclick="random_card(10);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn11 class="draggable" draggable="true" onclick="random_card(11);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+
+      <button id = btn12 class="draggable" draggable="true" onclick="random_card(12);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn13 class="draggable" draggable="true" onclick="random_card(13);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn14 class="draggable" draggable="true" onclick="random_card(14);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn15 class="draggable" draggable="true" onclick="random_card(15);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+
+      <button id = btn16 class="draggable" draggable="true" onclick="random_card(16);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn17 class="draggable" draggable="true" onclick="random_card(17);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn18 class="draggable" draggable="true" onclick="random_card(18);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn19 class="draggable" draggable="true" onclick="random_card(19);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+
+      <button id = btn20 class="draggable" draggable="true" onclick="random_card(20);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn21 class="draggable" draggable="true" onclick="random_card(21);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn22 class="draggable" draggable="true" onclick="random_card(22);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn23 class="draggable" draggable="true" onclick="random_card(23);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+
+      <button id = btn24 class="draggable" draggable="true" onclick="random_card(24);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn25 class="draggable" draggable="true" onclick="random_card(25);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn26 class="draggable" draggable="true" onclick="random_card(26);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn27 class="draggable" draggable="true" onclick="random_card(27);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+
+      <button id = btn28 class="draggable" draggable="true" onclick="random_card(28);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn29 class="draggable" draggable="true" onclick="random_card(29);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn30 class="draggable" draggable="true" onclick="random_card(30);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn31 class="draggable" draggable="true" onclick="random_card(31);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+
+      <button id = btn32 class="draggable" draggable="true" onclick="random_card(32);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn33 class="draggable" draggable="true" onclick="random_card(33);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn34 class="draggable" draggable="true" onclick="random_card(34);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn35 class="draggable" draggable="true" onclick="random_card(35);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+
+      <button id = btn36 class="draggable" draggable="true" onclick="random_card(36);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn37 class="draggable" draggable="true" onclick="random_card(37);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn38 class="draggable" draggable="true" onclick="random_card(38);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn39 class="draggable" draggable="true" onclick="random_card(39);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+
+      <button id = btn40 class="draggable" draggable="true" onclick="random_card(40);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn41 class="draggable" draggable="true" onclick="random_card(41);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn42 class="draggable" draggable="true" onclick="random_card(42);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn43 class="draggable" draggable="true" onclick="random_card(43);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+
+      <button id = btn44 class="draggable" draggable="true" onclick="random_card(44);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn45 class="draggable" draggable="true" onclick="random_card(45);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn46 class="draggable" draggable="true" onclick="random_card(46);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+      <button id = btn47 class="draggable" draggable="true" onclick="random_card(47);"><img src ="./images/cardBack.jpg" style="width:60px;"></button>
+        </div>
+        <div id = container1 class="container">
+            <h3>PLAYER 1</h3>
+        </div>
+        <div id = container1 class="container">
+            <h3>PLAYER 2</h3>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <figure>
+      <a href="mem_gameStart.html"><button class = nextWord>다시하기</button></a>
+    </figure>
+  
+  </article>
+  </section>
+  <aside id="gameStart_aside">
+    
+    <blockquote><mark><br>클릭해서<br></mark>뒤집기</blockquote>
+    <blockquote><mark><br>드래그해서<br></mark>짝이 맞는 화투 패 &nbsp 놓기</blockquote>
+    
+</aside>
+
+<aside id="gameStart_aside">
+    <blockquote>
+      <h3>TIMER</h3>
+        <h1><div id = 'showTime'> </div></h1>
+    </blockquote>   
+</aside>
+
+    <footer id="main_footer">
+          Copyright &copy; 2022
+    </footer>
+    </div> 
+  </body>
+</html>
+
+
+
+
+
+
+
+ 

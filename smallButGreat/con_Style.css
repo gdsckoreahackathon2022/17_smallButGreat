@@ -1,0 +1,121 @@
+/*파랑 #4285F4*/
+/*빨강 #DB4437*/
+/*초록 #0F9D58*/
+/*노랑 #F4B400*/
+/*보라 #7D3C98*/
+
+* { margin: 0px; padding: 0px; }
+h1 { font: bold 20px verdana, sans-serif; } 
+h2 { font: bold 14px verdana, sans-serif; }
+
+hgroup{ display: block; }
+
+.resultBlock{display: inline-block;}
+#scoreNow{display: inline-block;}
+#result{display: inline-block;}
+
+
+#wrapper { 
+width: 960px; 
+margin: 15px auto; 
+text-align: left; 
+padding: 10px; 
+border: 1px solid #000000; 
+-chrome-box-sizing: border-box; 
+-webkit-box-sizing: border-box; box-sizing: border-box; 
+}
+
+#main_header { 
+background: #ffffff; 
+border: 5px solid #4285F4;  			/*파랑 #4285F4*/
+padding: 20px; 
+
+}
+#main_menu { background: #F2F2F2; padding: 5px 15px; border: 5px solid #DB4437}
+#main_menu li { 
+display: inline-block; 
+list-style: none; 
+padding: 5px; 
+font: bold 14px verdana, sans-serif; 
+}
+
+
+#main_section {float: center; margin: 20px; padding: 2px 2px; border: 5px solid #0F9D58} /*초록 #0F9D58*/
+#tutorial_section {float: center; margin: 20px; padding: 2px 2px; border: 5px solid #F4B400} /*노랑 #F4B400*/
+
+#gameStart_section {float: left; width: 580px; margin: 20px; padding: 2px 2px; border: 5px solid #0F9D58}
+#gameStart_aside { text-align: center; float: right; width: 230px; margin: 
+20px 15px; padding: 20px; background: #CCCCCC; }
+
+#darkMode_aside { text-align: center; float: right; width: 260px; margin: 
+	20px 15px; padding: 5px; background: #CCCCCC; }
+
+
+
+#main_footer { clear: both; text-align: center; height :15px;
+padding: 10px; border: 2px solid #F4B400; background: #B3B6B7;} 			/*노랑 #F4B400*/
+
+#main_article { background: #FFFFFF; float: center; border: 1px solid 
+#999999; padding: 20px;  }
+
+
+
+a {
+  text-decoration-line: none;
+  color: #000000;
+}
+
+#btn_group button{font-size:350%;width: 71px; height: 70px;margin-right: 7px;}
+#btn0{color:#DB4437;background-color:#DB4437;}
+#btn1{color:#000000;background-color:#000000;}
+#btn2{color:#F4B400;background-color:#F4B400;}
+#btn3{color:#0F9D58;background-color:#0F9D58;}
+#btn4{color:#4285F4;background-color:#4285F4;}
+#btn5{color:#7D3C98;background-color:#7D3C98;}
+
+
+#btn0:hover{background-color: #A93226;}
+#btn1:hover{background-color: #626567;}
+#btn2:hover{background-color: #9A7D0A;}
+#btn3:hover{background-color: #145A32;}
+#btn4:hover{background-color: #1A5276;}
+#btn5:hover{background-color: #512E5F;}
+
+.nextWord{color:#196F3D; background-color:#E5E8E8;font-size:150%;font: verdana, sans-serif;}
+.nextWord:hover{background-color: #BDC3C7;color: #145A32;font-size:150%;font: verdana, sans-serif;}
+
+.btn_start{color:#196F3D; background-color:#E5E8E8;font-size:800%;font: verdana, sans-serif;}
+.btn_start:hover{background-color: #BDC3C7;color: #145A32;font-size:800%;font: verdana, sans-serif;}
+
+.darkModeBtn{color:#196F3D; background-color:#E5E8E8;font-size:150%;font: verdana, sans-serif;}
+
+.darkModeBtn_day{color:#196F3D; background-color:#CCCCCC;font-size:100%;font: verdana, sans-serif;}
+.darkModeBtn_day:hover{background-color: #BDC3C7;color: #145A32;font-size:100%;font: verdana, sans-serif;}
+
+.darkModeBtn_night{color:#196F3D; background-color:#CCCCCC;font-size:100%;font: verdana, sans-serif;}
+.darkModeBtn_night:hover{background-color: #BDC3C7;color: #145A32;font-size:100%;font: verdana, sans-serif;}
+
+button{
+	
+	border: none;
+	padding: 15px 7px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px;
+	border-radius: 7px;
+}
+
+.resultBlock{
+    display: inline-block;
+}
+#colorResult{
+	font-size:1100%; 
+	font-weight:900;
+}
+
+    
+
+article footer { text-align: right; } 
+time { color: #999999; } 
+figcaption { font: italic 14px verdana, sans-serif;}

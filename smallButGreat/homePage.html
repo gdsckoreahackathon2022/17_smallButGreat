@@ -1,0 +1,106 @@
+<!doctype html>
+  <head>
+    <meta charset="utf-8">
+    <title>HOME PAGE</title>
+
+
+    <style>
+      body {
+        font-family: Consolas, monospace;
+      }
+
+    </style>
+    <link rel="stylesheet" href="con_Style.css">
+  </head>
+  <body>
+
+    <div id="wrapper">
+    
+   
+    <header id="main_header">
+       <h1 style="line-height: 40px;"> 
+        <a href="homePage.html"><image src="./images/GDSC_color.png" style="width:60px;"></image></a>
+        <a href="homePage.html"><span style="color:#000000; "><b>HOME PAGE</span></b></a>
+     </h1>
+    </header>
+ 
+    
+    <nav id="main_menu">  
+        <ul>
+            <li><a href="con_Game.html"> 집중력 강화 게임 </a></li>
+            <li><a href="mem_Game.html"> 기억력 강화 게임 </a></li>
+            <!--<li><a href="cre_Game.html"> 창의력 강화 게임 </a></li>
+            <li> 사고력 강화 게임 </li>-->
+        </ul>
+    </nav>
+    
+    <section id="gameStart_section"> 
+
+    <article id="main_article">  
+    
+        <hgroup>
+            <h1> HOME PAGE </h1>
+            <h2> 조촐하지만 굉장한!</h2>
+
+        </hgroup>
+
+        <figure>
+          <h2>
+            <br>
+            <image src="./images/teamName.jpg" style="width:430px; float: center;"></image>
+            <br><br>
+            교육용 게임 개발 프로젝트
+            <figcaption> EDUCATIONAL GAME DEVELOPMENT PROJECT </figcaption>
+          </h2>
+            <time>최근 업데이트 2022-02-05</time><br>
+        </figure>
+              
+    </article> 
+    
+
+    </section>
+    <!--
+    <aside id="darkMode_aside">
+      <blockquote>
+        <h3>DARK MODE</h3>
+        <div class = darkModeBtn>
+        <button class = darkModeBtn_day onclick="document.querySelector('body').style.backgroundColor='white'; 
+                         document.querySelector('body').style.Color='black';">&nbsp DAY &nbsp</button>
+        <button class = darkModeBtn_night onclick="document.querySelector('body').style.backgroundColor='black'; 
+                         document.querySelector('body').style.Color='white';">NIGHT</button>
+        </div>  
+      </blockquote>
+    </aside>
+    -->
+
+     <aside id="gameStart_aside">
+        <blockquote>
+          <script>
+          //랜덤 이미지 출력 함수
+            function random_image()
+             {
+              var myimages = new Array();
+              // 출력할 이미지들
+              myimages[0] = "./images/01.jpg";
+              myimages[1] = "./images/02.jpg";
+              myimages[2] = "./images/03.jpg";
+              myimages[3] = "./images/04.jpg";
+
+              var imageNum = Math.floor( Math.random() * (myimages.length-1) );
+              document.write('<img src="' + myimages[imageNum] + '" style="width:200px;">');
+             }
+
+             random_image();
+
+          </script>
+        </blockquote>
+        <blockquote>건강한 뇌를 위한 게임</blockquote>
+    </aside>
+ 
+  <footer id="main_footer">
+        Copyright &copy; 2022
+  </footer>
+
+  </div> 
+  </body>
+</html>
