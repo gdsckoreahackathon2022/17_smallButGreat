@@ -81,12 +81,7 @@ https://keen-kare-a28b65.netlify.app/index.html
 역시 게임에 대한 자세한 설명이 나타나 있습니다. 두 명의 플레이어가 함께 즐기면 더 즐거운 게임인데요, 화투 패의 짝을 맞추는 게임입니다. 
 
 
-게임 시작을 눌러보겠습니다.
-
-![image](https://user-images.githubusercontent.com/93893702/152625032-d3cba0f3-099f-4561-a3ff-202a98161cbe.png)
- 
- 
- 게임 시작을 누르면 화투패가 랜덤으로 섞이고, 뒤집힌 채로 나타나게 됩니다.
+게임 시작을 누르면 화투패가 랜덤으로 섞이고, 뒤집힌 채로 나타나게 됩니다.
  
  ![image](https://user-images.githubusercontent.com/93893702/152625081-f122fe2b-c38a-405e-a625-32f5efa4fb52.png)
 
